@@ -3,7 +3,7 @@
 Welcome to **Bot Battlr**, the one and only spot in the known universe where you
 can custom build your own Bot Army! This is our app:
 
-![checkpoint demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-code-challenge-bot-battlr/checkpoint_demo.gif)
+)
 
 Here's the scenario: a galactic overlord has hired you, a galactic web
 developer, to develop a galactic web app that will allow them to browse through
@@ -28,10 +28,10 @@ After unbundling the project:
 2. Run `npm run server`. This will run your backend on port `8002`.
 3. In a new terminal, run `npm start`. This will run your React app on port `8000`.
 
-Make sure to open [http://localhost:8002/bots](http://localhost:8002/bots) in
+Make sure to open [http://localhost:8002/bots](http://localhost:3000/bots) in
 the browser to verify that your backend is working before you proceed!
 
-The base URL for your backend is: `http://localhost:8002`
+The base URL for your backend is: `http://localhost:3000`
 
 ## What You Already Have
 
@@ -125,8 +125,6 @@ As a user, I should be able to:
   which should replace `BotsCollection`. BotSpecs should have two buttons: one
   to go back to the list view and another to enlist that bot. Your app could
   look like the following:
-
-![Full demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-code-challenge-bot-battlr/full_demo.gif)
 
 - Sort bots by their health, damage or armor. For this, create a new component,
   `SortBar`.
